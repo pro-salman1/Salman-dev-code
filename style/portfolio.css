@@ -29,8 +29,12 @@
     font-size: 20px;
     font-weight: bold; 
     color: white;
-    cursor: pointer; 
+    cursor: pointer;
+    
 }
+
+ 
+
 .section-heading{
     width: 827px;
     text-align: center;
@@ -48,11 +52,15 @@
      line-height: 30px;
 }
 
+.text-center{
+    text-align: center;
+    margin-top: 50px;
+}
 
 header{
     background-color: #FFF8F3;
     background: url("../images/developer.png") , url("../images/header_bg.png"),#FFF8F3;
-    background-position: top left,bottom right;
+    background-position: 23px 38px,bottom right;
 
     background-repeat: no-repeat;
     padding-top: 50px;
@@ -232,6 +240,56 @@ nav .menu a{
     font-weight: 400px;
     line-height: 28px;
     color:#757575;
+}
+
+
+
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+    
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.socila h2{
+   font-size: 35px;
+   color: #181818;
+   font-weight: bold;
+   margin-bottom: 21px;
+}
+
+.socila p{
+     width: 562px;
+    height: 56px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747; 
+    margin-bottom: 30px;
+    text-decoration: ;
+
+}
+
+.icon a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea{
+   width: 461px;
+   padding: 18px 30px;
+   margin-top: 24px;
+   font-size: 16px;
+   color: #757575;
+   border: none;
+   border-radius: 5px;
 }
 
 
